@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio2 {
 
 	/* 
@@ -11,7 +13,13 @@ public class Ejercicio2 {
 	 * contenga los mismos caracteres que ésta y en el mismo orden. 
 	 */
 	
-	public static ...
+	public static void stringToArray(String[] args) {
+		Scanner n = new Scanner(System.in);
+		String in = "";
+		System.out.println("Insertar cadena de caracteres");
+		String vector = in.nextInt();
+		
+	}
 	
 	
 	/*

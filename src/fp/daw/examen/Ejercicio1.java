@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio1 {
 
 	/* 
@@ -13,7 +15,22 @@ public class Ejercicio1 {
 	 * uso de variables booleanas.
 	 */
 	
-	public static ...
+	public static void contiene(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Insertar cadena principal");
+		String cadenaP = in.nextInt();
+		System.out.println("Insertar cadena secundaria (más pequeña)");
+		int[] cadenaS = in.nextInt();
+	
+	
+		if(cadenaS.equals(cadenaP)) {
+			return true;
+		}
+		else
+			return false;
+	}
+	
+	
 	
 	/*
 	 * 0,25 puntos

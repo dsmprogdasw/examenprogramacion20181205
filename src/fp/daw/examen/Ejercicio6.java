@@ -14,8 +14,13 @@ public class Ejercicio6 {
 	 */
 		
 	public static void main(String[] args) {
-		
-
+		int[] vector = 
+				
+				
+				for(int i = 1; i<vector.length; i++) {
+					
+				}
+    
 	}
 
 }

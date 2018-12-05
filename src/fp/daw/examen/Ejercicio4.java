@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio4 {
 
 	/* 
@@ -12,7 +14,14 @@ public class Ejercicio4 {
 	 * Finalmente retornará el array.
 	 */
 	
-	public static ...
+	public static int [] arrayAleatorioOrdenado(int [] nums) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Insertar longitud del vector");
+		int[] vector = in.nextInt();
+		for(int i = 0; i<vector; i++) {
+			Random 
+		}
+	}
 	
 	/*
 	 * 0,25 puntos
